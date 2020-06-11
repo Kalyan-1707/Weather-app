@@ -7,10 +7,12 @@ function Card(props)
     return (
            
         <div className="container">
+            <div className="row">
+                <div className="col s12 l4 offset-l4">
         <div className="card">
             <div className="card-content center-align">
                 <div className="card-title card-item">
-                <span className="country">
+                <span className="country ">
                     {props.weather.name}
                 </span>
                 <sup className="btn-floating btn-small  orange">
@@ -27,6 +29,8 @@ function Card(props)
             <div className="card-item"><img src={"http://openweathermap.org/img/w/"+ props.weather.weather[0].icon + ".png"} alt="icon"/></div>
             <div className="desc">{props.weather.weather[0].description}</div>
         </div>
+        </div>
+            </div>
         </div>
         </div>
 

@@ -25,8 +25,11 @@ function App() {
     return(
 
         <div className="bgimage ">
+            <div className="conatiner">
+            
             <SearchBar val={query} setQuery={setQuery} Fetch={Fetch}/>
             <Card weather={weather}/>
+            </div>
         </div>
 
     );

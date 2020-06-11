@@ -4,7 +4,9 @@ import React from "react"
 function SearchBar(props)
 {
     return(
-        <div className="container valign-wrapper center-align">
+        <div className="container search-conatiner center-align">
+           <div className="row"> 
+            <div className="col s12 l4 offset-l4">
             <input className="input-field"
              onKeyPress={props.Fetch}
               type="text" value={props.query} 
@@ -12,7 +14,9 @@ function SearchBar(props)
               name="search" 
               id="searchbar"
               
-              />                      
+              />               
+                </div>
+            </div>       
         </div>
     );
 }
