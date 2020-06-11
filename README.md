@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1429ea94-062b-4c5f-b6d5-42ca8815448f/deploy-status)](https://app.netlify.com/sites/kalyan-weather-app/deploys)
+
 ## Available Scripts
 
 In the project directory, you can run:
