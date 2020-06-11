@@ -8,7 +8,7 @@ function Card(props)
            
         <div className="container">
             <div className="row">
-                <div className="col s12 l4 offset-l4">
+                <div className="col s12 m10 offset-m1 l4 offset-l4">
         <div className="card">
             <div className="card-content center-align">
                 <div className="card-title card-item">

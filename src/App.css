@@ -9,21 +9,34 @@ html
   }
 
   .search-conatiner{
-      margin-top: 15vh;
+      margin-top: 25vh;
   }
+
+@media screen and (max-width:600px)
+{
+   .search-conatiner{
+      margin-top: 25vh;
+  } 
+}
 
 input:focus{
     outline: none;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 0.8; /* Firefox */
+}
+
 #searchbar{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.8);
     border: 1px solid black;
     text-align: center;
-    color:#d50000 ;
+    color:black ;
     font-size: 2rem;
     font-weight: 900;
 }
