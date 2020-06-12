@@ -15,8 +15,7 @@ function App() {
         if(e.key==='Enter')
         {
             data = await FetchData(query);
-            console.log(data);
-
+            
             setWeather(data);
             
         }
