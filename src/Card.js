@@ -26,7 +26,7 @@ function Card(props)
                     &deg;C
                 </sup>
                 </div>
-            <div className="card-item"><img src={"http://openweathermap.org/img/w/"+ props.weather.weather[0].icon + ".png"} alt="icon"/></div>
+            <div className="card-item"><img src={"https://openweathermap.org/img/w/"+ props.weather.weather[0].icon + ".png"} alt="icon"/></div>
             <div className="desc">{props.weather.weather[0].description}</div>
         </div>
         </div>

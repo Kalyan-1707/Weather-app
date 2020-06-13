@@ -13,7 +13,8 @@ export const FetchData = async (query) => {
             units:'metric',
             APPID:API_KEY           
         }
-    }) 
+    })
+    
 
     return data;
 
